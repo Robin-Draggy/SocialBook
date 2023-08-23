@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialBook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+
+    <nav>
+        <div class="nav-left">
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+        </div>
+        <div class="nav-middle">
+            <div class="src-box">
+                <i class="fa-solid src-icon fa-magnifying-glass"></i>
+                <input type="search" class="search" placeholder="Search Socialbook">
+            </div>
+        </div>
+        <div class="nav-right">
+            <i class="fa-brands fa-facebook-messenger"></i>
+            <i class="fa-solid fa-bell"></i>
+            <div class="nav-user-icon online" onclick="settingMenu()">
+                <img src="images/profile-pic.jpg">
+            </div>
+        </div>
+        <div class="nav-ddown">
+            <div class="ddown-top">
+                <div class="ddown-first">
+                    <div class="ddown-left">
+                        <a href="#"><img src="images/profile-pic.jpg"></a>
+                        <a href="#">Abdullah Al Mamun</a>
+                    </div>
+                    <div class="ddown-right">
+                        <img src="images/h8.jpg">
+                    </div>
+                </div>
+                <hr>
+                <div class="ddown-sec">
+                    <div class="ddown-leftone">
+                        <a href="#">see all profiles</a>
+                    </div>
+                    <div class="ddown-rightone">
+                        <p>2</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ddown-bottom">
+                <div class="ddown-bottom-one">
+                    <div class="bottom-left">
+                        <i class="fa-solid fa-gear"></i>
+                        <p>Setting & privacy</p>
+                    </div>
+                    <div class="bottom-right">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="ddown-bottom-one">
+                    <div class="bottom-left">
+                        <i class="fa-solid fa-question one"></i>
+                        <p>Help & support</p>
+                    </div>
+                    <div class="bottom-right">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="ddown-bottom-one">
+                    <div class="bottom-left">
+                        <i class="fa-solid fa-moon two"></i>
+                        <p>Display & acessebility</p>
+                    </div>
+                    <div class="bottom-right">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="ddown-bottom-one">
+                    <div class="bottom-left">
+                        <i class="fa-solid fa-message three"></i>
+                        <p>Give feedback</p>
+                    </div>
+                    
+                </div>
+                <div class="ddown-bottom-one">
+                    <div class="bottom-left">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                        <p>Log out</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ---------Content Area--------- -->
+
+    <div class="container">
+
+        <!-- ---------Left Sidebar--------- -->
+
+
+        <div class="left-sidebar">
+            <div class="ls-box-one">
+                <a href="#"><i class="fa-solid fa-house"></i>Home</a>
+                <a href="#"><img class="ls-img" src="images/profile-pic.jpg">Abdullah Al Mamun</a>
+            </div>
+            <hr>
+            <div class="ls-box-one">
+                <a href="#"><i class="fa-solid fa-video"></i>Video</a>
+                <a href="#"><i class="fa-solid fa-shop"></i>Marketplace</a>
+                <a href="#"><i class="fa-solid fa-gamepad"></i>Marketplace</a>
+                <a href="#"><i class="fa-solid fa-braille"></i>See all</a>
+            </div>
+            <hr>
+            <div class="ls-box-two">
+                <a href="#"><img class="ls-img" src="images/h1.png">INTERNET BAZAR</a>
+                <a href="#"><img class="ls-img" src="images/h2.jpg">Nikku squad</a>
+                <a href="#"><img class="ls-img" src="images/h3.jpg">Life Lessons</a>
+                <a href="#"><img class="ls-img" src="images/h4.jpg">Pets Lover</a>
+                <a href="#"><i class="fa-solid fa-users"></i>See all groups</a>
+
+            </div>
+            <hr>
+            <div class="ls-box-two">
+                <a href="#"><img class="ls-img" src="images/h5.png">8 Ball pool</a>
+                <a href="#"><img class="ls-img" src="images/h6.jpg">Worlds FRVR</a>
+                <a href="#"><img class="ls-img" src="images/h7.jpg">OMG</a>
+                <a href="#"><i class="fa-solid fa-link"></i>See all shortcuts</a>
+
+            </div>
+        </div>
+
+        <!-- ---------Main Content--------- -->
+
+
+        <div class="main-content">
+            <div class="first-sec">
+                <div class="top-part">
+                    <div class="left-top">
+                        <i class="fa-solid fa-book-open"></i>
+                        <p>Stories</p>
+                    </div>
+                    <div class="right-top">
+                        <i class="fa-solid fa-clapperboard"></i>
+                        <p>Reels</p>
+                    </div>
+                </div>
+
+                <!-- ---------story section--------- -->
+
+                <div class="story-sec">
+                    <div class="card-one">
+                        <div class="up-card"></div>
+                        <div class="down-card">
+                            <i class="fa-solid fa-circle-plus" style="color: #1285ed;"></i>
+                            <p>Create story</p>
+                        </div>
+                    </div>
+                    <div class="card-two">
+                        <img src="images/status-2.png">
+                        <div class="front-pic">
+                            <img src="images/photo1.png">
+                        </div>
+                    </div>
+                    <div class="card-two">
+                        <img src="images/status-3.png">
+                        <div class="front-pic">
+                            <img src="images/photo2.png">
+                        </div>
+                    </div>
+                    <div class="card-two">
+                        <img src="images/status-4.png">
+                        <div class="front-pic">
+                            <img src="images/photo3.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second-sec">
+                <div class="first-part">
+                    <img src="images/profile-pic.jpg">
+                    <input type="search" placeholder="What's on your mind, Abdullah?" class="first-part-src">
+                </div>
+                <hr>
+                <div class="second-part">
+                    <div class="second-part-icons">
+                        <i class="fa-brands fa-youtube one"></i>
+                        <p>Live video</p>
+                    </div>
+                    <div class="second-part-icons">
+                        <i class="fa-solid fa-image two"></i>
+                        <p>Photo/video</p>
+                    </div>
+                    <div class="second-part-icons">
+                        <i class="fa-regular fa-face-grin-wide three"></i>
+                        <p>Feeling/Activity</p>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-one">
+                    <div class="top-post">
+                        <div class="post-left">
+                            <img src="images/member-1.png">
+                            <div class="name-post">
+                                <p><span>Sarah Jones</span> updated his cover photo.</p>
+                                <div class="name-post-sec">
+                                    <p>43m .</p> 
+                                    <i class="fa-solid fa-earth-asia"></i>
+                                </div>
+                                
+                            </div>
+                        </div>
+                       
+                        <div class="name-post-icon">
+                            <i class="fa-solid fa-ellipsis"></i>
+                            <i class="fa-solid fa-xmark icona"></i>
+                        </div>
+                    </div>
+                    <div class="caption">
+                        <p>Love being with these guys!</p>
+                    </div>
+                    <div class="photo">
+                        <img src="images/feed-image-1.png">
+                    </div>
+                    <div class="react">
+                        <div class="love-react">
+                            <i class="fa-solid fa-thumbs-up blue"></i>
+                            <i class="fa-brands fa-gratipay red"></i>
+                            <p>You and 96 others</p>
+                        </div>
+                        <div class="cmnt-react">
+                            <div class="cmnt">
+                                <p>12</p>
+                                <i class="fa-regular fa-message"></i>
+                            </div>
+                            <div class="share">
+                                <p>3</p>
+                                <i class="fa-solid fa-share"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="like-sec">
+                        <div class="like llc">
+                            <i class="fa-regular fa-thumbs-up"></i>
+                            <p>Like</p>
+                        </div>
+                        <div class="comment llc">
+                            <i class="fa-regular fa-message"></i>
+                            <p>Comment</p>
+                        </div>
+                        <div class="shareit llc">
+                            <i class="fa-solid fa-share"></i>
+                            <p>Share</p>
+                        </div>
+                        <div class="llc img-llc">
+                            <img src="images/profile-pic.jpg">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-one">
+                    <div class="top-post">
+                        <div class="post-left">
+                            <img src="images/member-5.png">
+                            <div class="name-post">
+                                <p><span>Jackie Chan</span> updated his cover photo.</p>
+                                <div class="name-post-sec">
+                                    <p>43m .</p> 
+                                    <i class="fa-solid fa-earth-asia"></i>
+                                </div>
+                                
+                            </div>
+                        </div>
+                       
+                        <div class="name-post-icon">
+                            <i class="fa-solid fa-ellipsis"></i>
+                            <i class="fa-solid fa-xmark icona"></i>
+                        </div>
+                    </div>
+                    <div class="caption">
+                        <p>Love being with these guys!</p>
+                    </div>
+                    <div class="photo">
+                        <img src="images/feed-image-2.png">
+                    </div>
+                    <div class="react">
+                        <div class="love-react">
+                            <i class="fa-solid fa-thumbs-up blue"></i>
+                            <i class="fa-brands fa-gratipay red"></i>
+                            <p>You and 96 others</p>
+                        </div>
+                        <div class="cmnt-react">
+                            <div class="cmnt">
+                                <p>12</p>
+                                <i class="fa-regular fa-message"></i>
+                            </div>
+                            <div class="share">
+                                <p>3</p>
+                                <i class="fa-solid fa-share"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="like-sec">
+                        <div class="like llc">
+                            <i class="fa-regular fa-thumbs-up"></i>
+                            <p>Like</p>
+                        </div>
+                        <div class="comment llc">
+                            <i class="fa-regular fa-message"></i>
+                            <p>Comment</p>
+                        </div>
+                        <div class="shareit llc">
+                            <i class="fa-solid fa-share"></i>
+                            <p>Share</p>
+                        </div>
+                        <div class="llc img-llc">
+                            <img src="images/profile-pic.jpg">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-one">
+                    <div class="top-post">
+                        <div class="post-left">
+                            <img src="images/member-1.png">
+                            <div class="name-post">
+                                <p><span>David Beckam</span></p>
+                                <div class="name-post-sec">
+                                    <p>8d .</p> 
+                                    <i class="fa-solid fa-earth-asia"></i>
+                                </div>
+                                
+                            </div>
+                        </div>
+                       
+                        <div class="name-post-icon">
+                            <i class="fa-solid fa-ellipsis"></i>
+                            <i class="fa-solid fa-xmark icona"></i>
+                        </div>
+                    </div>
+                    <div class="caption">
+                        <p>"Many of life’s failures are people who did not realize how close they were to success when they gave up."– Thomas A. Edison</p>
+                    </div>
+                   
+                    <div class="react">
+                        <div class="love-react">
+                            <i class="fa-solid fa-thumbs-up blue"></i>
+                            <i class="fa-brands fa-gratipay red"></i>
+                            <p>You and 19 others</p>
+                        </div>
+                        <div class="cmnt-react">
+                            <div class="cmnt">
+                                <p>12</p>
+                                <i class="fa-regular fa-message"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="like-sec">
+                        <div class="like llc">
+                            <i class="fa-regular fa-thumbs-up"></i>
+                            <p>Like</p>
+                        </div>
+                        <div class="comment llc">
+                            <i class="fa-regular fa-message"></i>
+                            <p>Comment</p>
+                        </div>
+                        <div class="shareit llc">
+                            <i class="fa-solid fa-share"></i>
+                            <p>Share</p>
+                        </div>
+                        <div class="llc img-llc">
+                            <img src="images/profile-pic.jpg">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-one">
+                    <div class="top-post">
+                        <div class="post-left">
+                            <img src="images/profile-pic.jpg">
+                            <div class="name-post">
+                                <p><span>Abdullah Al Mamun</span></p>
+                                <div class="name-post-sec">
+                                    <p>7m .</p> 
+                                    <i class="fa-solid fa-earth-asia"></i>
+                                </div>
+                                
+                            </div>
+                        </div>
+                       
+                        <div class="name-post-icon">
+                            <i class="fa-solid fa-ellipsis"></i>
+                            <i class="fa-solid fa-xmark icona"></i>
+                        </div>
+                    </div>
+                    <div class="caption">
+                        <p>This is my Facebook clone. Just learned html css. The beggining of my journey to become a professional web developer. Hope i will gain the necessary skills to be able to get a job on a big company.</p>
+                    </div>
+                   
+                    <div class="react">
+                        <div class="love-react">
+                            <i class="fa-brands fa-gratipay red"></i>
+                            <i class="fa-solid fa-thumbs-up blue"></i>
+                            <p>You and 19 others</p>
+                        </div>
+                        <div class="cmnt-react">
+                            <div class="cmnt">
+                                <p>12</p>
+                                <i class="fa-regular fa-message"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="like-sec">
+                        <div class="like llc">
+                            <i class="fa-regular fa-thumbs-up"></i>
+                            <p>Like</p>
+                        </div>
+                        <div class="comment llc">
+                            <i class="fa-regular fa-message"></i>
+                            <p>Comment</p>
+                        </div>
+                        <div class="shareit llc">
+                            <i class="fa-solid fa-share"></i>
+                            <p>Share</p>
+                        </div>
+                        <div class="llc img-llc">
+                            <img src="images/profile-pic.jpg">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-one">
+                    <div class="top-post">
+                        <div class="post-left">
+                            <img src="images/pp1.jpg">
+                            <div class="name-post">
+                                <p><span>Channel i</span></p>
+                                <div class="name-post-sec">
+                                    <p>2d .</p> 
+                                    <i class="fa-solid fa-earth-asia"></i>
+                                </div>
+                                
+                            </div>
+                        </div>
+                       
+                        <div class="name-post-icon">
+                            <i class="fa-solid fa-ellipsis"></i>
+                            <i class="fa-solid fa-xmark icona"></i>
+                        </div>
+                    </div>
+                    <!-- <div class="caption">
+                        <p>Love being with these guys!</p>
+                    </div> -->
+                    <div class="photo">
+                        <img src="images/content1.jpg">
+                    </div>
+                    <div class="react">
+                        <div class="love-react">
+                            <i class="fa-solid fa-thumbs-up blue"></i>
+                            <i class="fa-brands fa-gratipay red"></i>
+                            <p>10k</p>
+                        </div>
+                        <div class="cmnt-react">
+                            <div class="cmnt">
+                                <p>716</p>
+                                <i class="fa-regular fa-message"></i>
+                            </div>
+                            <div class="share">
+                                <p>62</p>
+                                <i class="fa-solid fa-share"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="like-sec">
+                        <div class="like llc">
+                            <i class="fa-regular fa-thumbs-up"></i>
+                            <p>Like</p>
+                        </div>
+                        <div class="comment llc">
+                            <i class="fa-regular fa-message"></i>
+                            <p>Comment</p>
+                        </div>
+                        <div class="shareit llc">
+                            <i class="fa-solid fa-share"></i>
+                            <p>Share</p>
+                        </div>
+                        <div class="llc img-llc">
+                            <img src="images/profile-pic.jpg">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-one">
+                    <div class="top-post">
+                        <div class="post-left">
+                            <img src="images/pp2.png">
+                            <div class="name-post">
+                                <p><span>Startup Pakistan</span></p>
+                                <div class="name-post-sec">
+                                    <p>2d .</p> 
+                                    <i class="fa-solid fa-earth-asia"></i>
+                                </div>
+                                
+                            </div>
+                        </div>
+                       
+                        <div class="name-post-icon">
+                            <i class="fa-solid fa-ellipsis"></i>
+                            <i class="fa-solid fa-xmark icona"></i>
+                        </div>
+                    </div>
+                    <div class="caption">
+                        <p>Read More: https://startuppakistan.com.pk/pakistans-no-1-squash.../</p>
+                    </div>
+                    <div class="photo">
+                        <img src="images/content2.jpg">
+                    </div>
+                    <div class="react">
+                        <div class="love-react">
+                            <i class="fa-solid fa-thumbs-up blue"></i>
+                            <i class="fa-solid fa-face-sad-tear yellow"></i>
+                            <p>6.7k</p>
+                        </div>
+                        <div class="cmnt-react">
+                            <div class="cmnt">
+                                <p>278</p>
+                                <i class="fa-regular fa-message"></i>
+                            </div>
+                            <div class="share">
+                                <p>317</p>
+                                <i class="fa-solid fa-share"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="like-sec">
+                        <div class="like llc">
+                            <i class="fa-regular fa-thumbs-up"></i>
+                            <p>Like</p>
+                        </div>
+                        <div class="comment llc">
+                            <i class="fa-regular fa-message"></i>
+                            <p>Comment</p>
+                        </div>
+                        <div class="shareit llc">
+                            <i class="fa-solid fa-share"></i>
+                            <p>Share</p>
+                        </div>
+                        <div class="llc img-llc">
+                            <img src="images/profile-pic.jpg">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-one">
+                    <div class="top-post">
+                        <div class="post-left">
+                            <img src="images/pp3.jpg">
+                            <div class="name-post">
+                                <p><span>Marriage and Love Tips</span></p>
+                                <div class="name-post-sec">
+                                    <p>2d .</p> 
+                                    <i class="fa-solid fa-earth-asia"></i>
+                                </div>
+                                
+                            </div>
+                        </div>
+                       
+                        <div class="name-post-icon">
+                            <i class="fa-solid fa-ellipsis"></i>
+                            <i class="fa-solid fa-xmark icona"></i>
+                        </div>
+                    </div>
+                    <div class="caption">
+                        <p>True</p>
+                    </div>
+                    <div class="photo">
+                        <img src="images/content3.jpg">
+                    </div>
+                    <div class="react">
+                        <div class="love-react">
+                            <i class="fa-brands fa-gratipay red"></i>
+                            <i class="fa-solid fa-thumbs-up blue"></i>
+                            <p>1.1k</p>
+                        </div>
+                        <div class="cmnt-react">
+                            <div class="cmnt">
+                                <p>143</p>
+                                <i class="fa-regular fa-message"></i>
+                            </div>
+                            <div class="share">
+                                <p>13</p>
+                                <i class="fa-solid fa-share"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="like-sec">
+                        <div class="like llc">
+                            <i class="fa-regular fa-thumbs-up"></i>
+                            <p>Like</p>
+                        </div>
+                        <div class="comment llc">
+                            <i class="fa-regular fa-message"></i>
+                            <p>Comment</p>
+                        </div>
+                        <div class="shareit llc">
+                            <i class="fa-solid fa-share"></i>
+                            <p>Share</p>
+                        </div>
+                        <div class="llc img-llc">
+                            <img src="images/profile-pic.jpg">
+                            <i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="load-more-btn">Load More</button>
+        </div>
+
+        <!-- ---------Right Content--------- -->
+
+
+        <div class="right-sidebar">
+            <div class="right-title">
+                <h4>Your pages and profiles</h4>
+                <div class="title-icon">
+                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                </div>
+            </div>
+            <div class="rg-box-one">
+                <a href="#" class="rg-aone"><img class="ls-img" src="images/h8.jpg">AnyShop Store</a>
+                <a href="#"><i class="fa-regular fa-circle-user"></i>Switch into page</a>
+                <a href="#"><i class="fa-solid fa-bullhorn"></i>Create promotion</a>
+            </div>
+            <div class="active-ppl">
+                <div class="active-title">
+                    <h4>Contacts</h4>
+                </div>
+                <div class="active-icons">
+                    <a href="#"><i class="fa-solid fa-video"></i></a>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+                </div>
+            </div>
+            <div class="chatlist">
+                <div class="chat-ppl">
+                    <img src="images/member-1.png">
+                    <p>Sarah Jones</p>
+                </div>
+                <div class="chat-ppl">
+                    <img src="images/member-2.png">
+                    <p>David Beckam</p>
+                </div>
+                <div class="chat-ppl">
+                    <img src="images/member-3.png">
+                    <p>Monalisa</p>
+                </div>
+                <div class="chat-ppl">
+                    <img src="images/member-4.png">
+                    <p>John Cena</p>
+                </div>
+                <div class="chat-ppl">
+                    <img src="images/member-5.png">
+                    <p>Jackie Chan</p>
+                </div>
+                <div class="chat-ppl">
+                    <img src="images/member-6.png">
+                    <p>Lana Rose</p>
+                </div>
+                <div class="chat-ppl">
+                    <img src="images/member-7.png">
+                    <p>Nick Jonas</p>
+                </div>
+                <div class="chat-ppl">
+                    <img src="images/member-8.png">
+                    <p>Priyanka Chopra</p>
+                </div>
+                <div class="chat-ppl">
+                    <img src="images/member-9.png">
+                    <p>Ranveer Singh</p>
+                </div>
+            </div>
+            <div class="grp">
+                <div class="grp-title">
+                    <h4>Group conversations</h4>
+                </div>
+                <div class="grp-ppl">
+                    <img src="images/photo1.png">
+                    <p>Web Designers</p>
+                </div>
+                <div class="grp-ppl">
+                    <img src="images/photo2.png">
+                    <p>Web Developers</p>
+                </div>
+                <div class="grp-ppl">
+                    <img src="images/photo3.png">
+                    <p>UI/UX Designer</p>
+                </div>
+                <div class="grp-ppl">
+                    <img src="images/photo4.png">
+                    <p>Figma Community</p>
+                </div>
+                <div class="grp-ppl">
+                    <img src="images/photo5.png">
+                    <p>Fiverr Community</p>
+                </div>
+                <div class="grp-crt">
+                    <div class="grp-crt-icon">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <p>Create new group</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
